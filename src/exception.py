@@ -1,6 +1,5 @@
 import sys
-import logging
-
+from src.logger import logging
 #whenever exception gets raised, custom message is displayed
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() #gives very specific info like which file, which line
